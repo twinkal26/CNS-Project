@@ -1,0 +1,9 @@
+# SecureVault — Secure Password Manager
+# Requirements
+#
+# Only one external dependency is needed:
+# - cryptography: Provides AES-256-GCM and PBKDF2-HMAC-SHA256
+#   All other modules (tkinter, sqlite3, secrets, hashlib, etc.)
+#   are part of the Python standard library.
+
+cryptography>=41.0.0
